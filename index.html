@@ -1,123 +1,145 @@
+<!-- Declaração do tipo de documento como HTML5 -->
 <!DOCTYPE HTML>
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Início do documento HTML, definido com idioma português do Brasil -->
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="./estilo.css">
+    <!-- Define a codificação de caracteres para UTF-8 (suporte a acentos) -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuração para tornar a página responsiva em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <!-- Importação do framework Bootstrap para facilitar a estilização -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    
+    <!-- Importação de um arquivo CSS personalizado -->
+    <link rel="stylesheet" href="./estilo.css">
 
-<title>Curitiba</title>
+    <title>Curitiba</title> <!-- Título da página exibido na aba do navegador -->
 </head>
+
 <body>
-<header>
-<nav class="navbar navbar-default">
-  <div class="container">
-   <div class="navbar-header">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-	  <a class="navbar-brand" href="#">Curitiba</a>
-	  </div>
-   <div class="collapse navbar-collapse" id="menu">
-<ul class="nav navbar-nav" >
-<li><a href="#sobre-nos">Sobre nós</a></li>
-<li><a href="#clientes">Galeria</a></li>
-</ul>
-</div>
-</div>
-</nav>
-</header>
-<section class="container">
-<div id="sobre-nos" class="container">
-<h1> Sobre nós</h1>
-<img class="img-responsive" src="./img/sobreNos.jpg"/>
-<h4> Photo by Gabriel Rodrigues on Unsplash</h4>
 
-<div class="panel-group"id="painel-sobre">
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p1">
-<h3 class="panel-title"  > Desde 1693</h3>
-</div>
+    <header>
+        <!-- Barra de navegação responsiva usando Bootstrap -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Botão para alternar menu em telas menores -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Nome da marca ou título da barra de navegação -->
+                    <a class="navbar-brand" href="#">Curitiba</a>
+                </div>
+                
+                <!-- Menu de navegação -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre nós</a></li>
+                        <li><a href="#clientes">Galeria</a></li>
+                        <li><a href="outra_pagina.html">Chamando outra pagina</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<div id="p1"class="collapse">
-<p class="panel-body" > Curitiba é a capital do Paraná, um dos três Estados que compõem a Região Sul do Brasil. Sua fundação oficial data de 29 de março de 1693 </p>
-</div>
-</div>
-
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p2">
-<h3 class="panel-title" > Terra do pinhão</h3>
-</div>
-
-<div id="p2"class="collapse">
-<p  class="panel-body"> Curitiba é uma palavra de origem Guarani: kur yt yba quer dizer "grande quantidade de pinheiros, pinheiral"</p>
-</div>
-</div>
-<div class="panel panel-default">
-<div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p3">
-<h3 class="panel-title"> O inverno em Curitiba</h3>
-</div>
-<div id="p3"class="collapse">
-<p class="panel-body"> A temperatura média da cidade no inverno é de 13 °C, podendo chegar a números negativos nos dias mais frios, de madrugada e de manhã. 
-Os meses de julho e agosto são os mais frios do ano, mas também os menos chuvosos. As manhãs de inverno costumam vir acompanhadas de uma neblina matinal <br>
-fonte: ricmais.com.br
-</p>
-</div>
-</div>
-</div>
-</section>
-<Section class="container">
-<h1 id="clientes" class="titulo-clientes"> Galeria</h1>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="./img/foto1.jpg" alt="...">
-      <div class="carousel-caption">
-	  <h3> Photo by Cassiano Psomas on pexels</h3>
-        ...
-      </div>
+    <div style="text-align: justify; padding: 10px; margin: 20px;"> 
+        <h1>TEXTO TESTE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet atque incidunt perspiciatis ut dolores, odio facilis autem eum id, facere hic aspernatur reiciendis error cumque. Sit asperiores at aperiam. Consequuntur mollitia incidunt qui provident corrupti illo sit voluptate reprehenderit similique magnam cumque perferendis asperiores rerum, saepe laudantium eum itaque, cum non pariatur consequatur corporis amet quam aliquam rem? Quibusdam repellendus, a debitis ipsam tempore culpa laborum dignissimos in blanditiis itaque voluptatibus exercitationem praesentium velit qui, consectetur voluptate illum quidem! Eveniet molestiae harum a dolore soluta animi deserunt sequi ipsum praesentium voluptatibus libero alias cum vel aliquid, architecto totam ea incidunt modi odit veritatis iusto ratione sapiente ab dolor! Porro exercitationem expedita, adipisci itaque optio deserunt beatae impedit? Possimus molestiae commodi, sit nemo incidunt non voluptatem inventore fugit temporibus vel. Dolor beatae necessitatibus vitae non saepe eos ex ratione impedit assumenda quasi, dignissimos et error. Ipsam neque iure nihil est facilis aperiam necessitatibus, facere magni nemo, obcaecati dolorum animi assumenda, earum fugiat eos cupiditate placeat ex alias velit ipsa? Alias, ducimus doloribus. Quas quos iusto vel voluptatem rerum nesciunt, harum blanditiis quia sit libero perspiciatis a minus fugit? Cumque dolorum molestiae dignissimos deserunt. Iusto soluta velit dolorum ab exercitationem quia mollitia aut? Et totam eius quaerat aperiam qui libero, illum vitae temporibus molestias labore in architecto facilis maiores nemo quia, molestiae quam? Voluptatem aspernatur voluptatibus consequuntur harum incidunt necessitatibus deserunt soluta fuga veniam debitis, praesentium odio sunt molestiae quam eaque tenetur saepe mollitia dolorem ipsum in aliquam eveniet cupiditate optio obcaecati! Illo iusto fuga quasi laudantium voluptate ullam? Libero expedita corrupti consequatur nemo commodi placeat voluptates quibusdam, dicta unde quidem at velit ea ratione nam fuga odit ex quisquam ducimus iure deleniti inventore eligendi. Eligendi unde labore incidunt tempore explicabo, inventore nulla quae necessitatibus nostrum nesciunt quod officiis asperiores repellendus illo dolores! Animi, quidem amet neque totam vitae asperiores maiores atque exercitationem distinctio dolores? Laborum, sint. Voluptatibus, provident autem. A sit atque iure fugit iste esse eligendi architecto voluptatum earum, enim expedita ab tenetur cupiditate, neque doloremque tempore ex sint officiis eius magni autem id consequuntur magnam? Tempora praesentium adipisci pariatur doloribus dolores quia aspernatur voluptatem, labore facilis eius, blanditiis sequi omnis, impedit quaerat consectetur exercitationem? Tempore quos possimus ab earum error accusamus sapiente? At, ducimus libero. Ad, alias voluptates laudantium facilis, consectetur rerum aliquam aspernatur eum quidem magni nihil deleniti dolor natus minus tempore eaque aperiam enim neque iure! 
+        </p>
     </div>
-    <div class="item">
-      <img src="./img/foto2.jpg" alt="...">
-      <div class="carousel-caption">
-	  <h3> Photo by Koala on Unsplash</h3>
-        ...
-      </div>
-    </div>
-	<div class="item">
-      <img src="./img/foto3.jpg" alt="...">
-      <div class="carousel-caption">
-	   <h3> Photo by Cassiano Psomas on Unsplash</h3>
-        ...
-      </div>
-    </div>
-    ...
-  </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<script src="./jquery.js"></script>
-<script src="./bootstrap/js/bootstrap.min.js"></script>
-	
+    <section class="container">
+        <div id="sobre-nos" class="container">
+            <h1>Sobre nós</h1>
+            <img class="img-responsive" src="./img/sobreNos.jpg"/>
+            <h4>Photo by Gabriel Rodrigues on Unsplash</h4>
+            
+            <!-- Painel de informações colapsáveis sobre Curitiba -->
+            <div class="panel-group" id="painel-sobre">
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p1">
+                        <h3 class="panel-title">Desde 1693</h3>
+                    </div>
+                    <div id="p1" class="collapse">
+                        <p class="panel-body">Curitiba é a capital do Paraná, um dos três Estados que compõem a Região Sul do Brasil. Sua fundação oficial data de 29 de março de 1693</p>
+                    </div>
+                </div>
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p2">
+                        <h3 class="panel-title">Terra do pinhão</h3>
+                    </div>
+                    <div id="p2" class="collapse">
+                        <p class="panel-body">Curitiba é uma palavra de origem Guarani: kur yt yba quer dizer "grande quantidade de pinheiros, pinheiral"</p>
+                    </div>
+                </div>
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-parent="#painel-sobre" data-toggle="collapse" data-target="#p3">
+                        <h3 class="panel-title">O inverno em Curitiba</h3>
+                    </div>
+                    <div id="p3" class="collapse">
+                        <p class="panel-body">A temperatura média da cidade no inverno é de 13 °C, podendo chegar a números negativos nos dias mais frios, de madrugada e de manhã. Os meses de julho e agosto são os mais frios do ano, mas também os menos chuvosos. As manhãs de inverno costumam vir acompanhadas de uma neblina matinal <br> fonte: ricmais.com.br</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <h1 id="clientes" class="titulo-clientes">Galeria</h1>
+        
+        <!-- Carrossel de imagens usando Bootstrap -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores do carrossel -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            
+            <!-- Conteúdo do carrossel -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./img/foto1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Photo by Cassiano Psomas on Pexels</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/foto2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Photo by Koala on Unsplash</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/foto3.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Photo by Cassiano Psomas on Unsplash</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Controles de navegação do carrossel -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Importação de bibliotecas JavaScript necessárias para funcionamento do Bootstrap -->
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

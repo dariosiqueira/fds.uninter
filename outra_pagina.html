@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="pt-br"> <!-- Início do documento HTML, definido com idioma português do Brasil -->
+
+<head>
+    <!-- Define a codificação de caracteres para UTF-8 (suporte a acentos) -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuração para tornar a página responsiva em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <!-- Importação do framework Bootstrap para facilitar a estilização -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    
+    <!-- Importação de um arquivo CSS personalizado -->
+    <link rel="stylesheet" href="./estilo.css">
+
+    <title>Curitiba</title> <!-- Título da página exibido na aba do navegador -->
+</head>
+<body>
+
+    <header>
+        <!-- Barra de navegação responsiva usando Bootstrap -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Botão para alternar menu em telas menores -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Nome da marca ou título da barra de navegação -->
+                    <a class="navbar-brand" href="index.html">Home</a>
+                </div>
+                
+                <!-- Menu de navegação -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .container-youtube {
+            text-align: center;
+            font-weight: bold;
+        }
+
+            .container-youtube h1 {
+                font-size: 2em;
+                margin: 10px 0;
+            }
+
+            .container-youtube div {
+                display: flex;
+                justify-content: center;
+                width: 60%;
+                width: 100%;
+                margin: 0 auto;
+            }
+        
+            .container-youtube h2 {
+                font-size: 1.5em;
+                max-width: 100%;
+                max-height: max-content;
+                text-align: justify;
+                margin: 0 10px;
+            }
+
+            .container-youtube p {
+                font-size: 1.2em;
+                text-align: justify;
+                margin: 0 10px;
+            }
+
+    </style>
+    
+    <div class="container-youtube">
+
+        <h1>Bem-vindo à Minha Página</h1>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gCIi1mX5wJk?si=b29Qud6vz23ddwzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+        <br>
+        <h2>Subtítulo Lorem</h2>
+
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+    </div>
+
+</body>
+</html>
